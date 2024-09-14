@@ -56,3 +56,8 @@ You must follow the **SDLC process** to refactor the code:
    - Once you complete the refactorization, push your changes to your forked repository.
    - Create a pull request (PR) to the original repository, explaining the improvements you made and how you followed the **SDLC** approach.
 
+**AGE VALIDATION**
+- Reemplace el valor magico "18" por una constante llamada AGE_LIMIT
+- cambie la estructura de control "if" por la esctuctura "if-else" y elimine el segundo parentesis que especificaba que si la edad era menor a la edad limite que imprimiera acceso denegado
+- importe una biblioteca para ingresar la edad por teclado, utlizando scanner.
+**
